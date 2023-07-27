@@ -1,0 +1,17 @@
+@import "reset", "variables";
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 0.8) 0%,
+    rgba(148, 187, 233, 0.8) 100%
+  );
+}
+
+p {
+  font-size: 1.1rem;
+}
